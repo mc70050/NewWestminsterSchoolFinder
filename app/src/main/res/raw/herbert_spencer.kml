@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>kml_10.kml</name>
+	<Schema name="3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY" id="kml_schema_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY">
+		<SimpleField type="xsd:string" name="PRIMARY"><displayName>PRIMARY</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="MIDDLE"><displayName>MIDDLE</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="SECONDARY"><displayName>SECONDARY</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="kml_style_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.8</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>330000aa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="kml_10">
+		<name>kml_10</name>
+		<snippet></snippet>
+		<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>PRIMARY</th>
+<td>Herbert Spencer (K-5)</td>
+</tr><tr bgcolor="">
+<th>MIDDLE</th>
+<td>Ecole Glenbrooke Middle School (6-8)</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>SECONDARY</th>
+<td>New Westminster Secondary (9-12)</td>
+</tr></table></center>]]></description>
+		<styleUrl>#kml_style_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY</styleUrl>
+		<Style>
+			<LineStyle>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#kml_schema_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY">
+				<SimpleData name="PRIMARY">Herbert Spencer (K-5)</SimpleData>
+				<SimpleData name="MIDDLE">Ecole Glenbrooke Middle School (6-8)</SimpleData>
+				<SimpleData name="SECONDARY">New Westminster Secondary (9-12)</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-122.927724493666,49.2190449849256,0
+						-122.917197517097,49.2246467351188,0
+						-122.915775715048,49.2241544001573,0
+						-122.913319611828,49.223491859291,0
+						-122.900446937634,49.21302521389399,0
+						-122.899552334446,49.2118000550696,0
+						-122.901348358365,49.2108465822697,0
+						-122.91238517067,49.2048315019532,0
+						-122.921828751557,49.2123176109766,0
+						-122.920381504999,49.2131433359124,0
+						-122.927724493666,49.2190449849256,0
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+                	    <description>Herbert Spencer Elementary</description>
+                	    <Point>
+                	    <coordinates>
+                	        -122.9137,49.2174,0
+                	    </coordinates>
+                	    </Point>
+            </Placemark>
+</Document>
+</kml>

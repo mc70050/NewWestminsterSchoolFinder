@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>kml_4.kml</name>
+	<Schema name="3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY" id="kml_schema_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY">
+		<SimpleField type="xsd:string" name="PRIMARY"><displayName>PRIMARY</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="MIDDLE"><displayName>MIDDLE</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="SECONDARY"><displayName>SECONDARY</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="kml_style_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.8</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>330000aa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="kml_4">
+		<name>kml_4</name>
+		<snippet></snippet>
+		<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>PRIMARY</th>
+<td>Queen Elizabeth (K-4)</td>
+</tr><tr bgcolor="">
+<th>MIDDLE</th>
+<td>Queensborough Middle School (5-8)</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>SECONDARY</th>
+<td>New Westminster Secondary (9-12)</td>
+</tr></table></center>]]></description>
+		<styleUrl>#kml_style_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY</styleUrl>
+		<Style>
+			<LineStyle>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#kml_schema_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY">
+				<SimpleData name="PRIMARY">Queen Elizabeth (K-4)</SimpleData>
+				<SimpleData name="MIDDLE">Queensborough Middle School (5-8)</SimpleData>
+				<SimpleData name="SECONDARY">New Westminster Secondary (9-12)</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-122.95635483127,49.19122444008361,0 -122.951223067747,49.1946583164234,0 -122.945465182262,49.1967471752518,0 -122.943925481321,49.19764276739699,0 -122.941132690495,49.1979028065756,0 -122.93543439858,49.1973769031922,0 -122.931559139796,49.1973746718777,0 -122.927000121083,49.1972971860627,0 -122.922270618313,49.19692063009169,0 -122.917028420855,49.1964688188958,0 -122.916062025336,49.19504893305529,0 -122.916292995339,49.1932564416809,0 -122.922626880604,49.1877334911276,0 -122.935340329053,49.1821018946961,0 -122.944858649515,49.17844681146161,0 -122.955629025168,49.1744926526973,0 -122.962065257638,49.17524188980011,0 -122.960230958312,49.1895452219279,0 -122.95635483127,49.19122444008361,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+                        <description>Queen Elizabeth Elementary</description>
+                        <Point>
+                            <coordinates>
+                                -122.9436,49.1846,0
+                            </coordinates>
+                        </Point>
+                    </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>kml_16.kml</name>
+	<Schema name="3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY" id="kml_schema_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY">
+		<SimpleField type="xsd:string" name="PRIMARY"><displayName>PRIMARY</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="MIDDLE"><displayName>MIDDLE</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="SECONDARY"><displayName>SECONDARY</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="kml_style_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.8</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>330000aa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="kml_16">
+		<name>kml_16</name>
+		<snippet></snippet>
+		<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>PRIMARY</th>
+<td>Richard McBride (K-5)</td>
+</tr><tr bgcolor="">
+<th>MIDDLE</th>
+<td>Ecole Glenbrooke Middle School (6-8)</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>SECONDARY</th>
+<td>New Westminster Secondary (9-12)</td>
+</tr></table></center>]]></description>
+		<styleUrl>#kml_style_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY</styleUrl>
+		<Style>
+			<LineStyle>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#kml_schema_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY">
+				<SimpleData name="PRIMARY">Richard McBride (K-5)</SimpleData>
+				<SimpleData name="MIDDLE">Ecole Glenbrooke Middle School (6-8)</SimpleData>
+				<SimpleData name="SECONDARY">New Westminster Secondary (9-12)</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-122.882756803392,49.2344429614284,0 -122.882065384026,49.2335864429938,0 -122.881846347246,49.2321888873334,0 -122.882650204879,49.2313934520243,0 -122.884075848727,49.23019203658,0 -122.886621037396,49.2278399722606,0 -122.889805290556,49.2248973645125,0 -122.892550588524,49.2222525738725,0 -122.890804927688,49.2216500276037,0 -122.891381835003,49.2211519446838,0 -122.892083787927,49.219609898766,0 -122.891173966451,49.2181654841978,0 -122.89250477747,49.21420724722061,0 -122.895149212928,49.21411687805129,0 -122.895747161316,49.2141895965256,0 -122.896862692626,49.2151392251452,0 -122.899172838245,49.216914783166,0 -122.899990193505,49.2174826064405,0 -122.901673226771,49.21809240914139,0 -122.904627882438,49.2164253421173,0 -122.912017227188,49.2224331704796,0 -122.898541651938,49.2294317923414,0 -122.898317805245,49.2347213659438,0 -122.895601674238,49.23587128612449,0 -122.895574625933,49.2363171426756,0 -122.896502634277,49.23796308979119,0 -122.895258433592,49.23904623009611,0 -122.892359850455,49.2393823976843,0 -122.887836192592,49.23749757787311,0 -122.884269621874,49.2358337844901,0 -122.883742089448,49.2351076511322,0 -122.882756803392,49.2344429614284,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+                                <description>Richard McBride Elementary</description>
+                                <Point>
+                                    <coordinates>
+                                        -122.8995,49.2265,0
+                                    </coordinates>
+                                </Point>
+                            </Placemark>
+</Document>
+</kml>

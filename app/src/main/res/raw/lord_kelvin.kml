@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>kml_8.kml</name>
+	<Schema name="3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY" id="kml_schema_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY">
+		<SimpleField type="xsd:string" name="PRIMARY"><displayName>PRIMARY</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="MIDDLE"><displayName>MIDDLE</displayName>
+</SimpleField>
+		<SimpleField type="xsd:string" name="SECONDARY"><displayName>SECONDARY</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="kml_style_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.8</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>330000aa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="kml_8">
+		<name>kml_8</name>
+		<snippet></snippet>
+		<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>PRIMARY</th>
+<td>Lord Kelvin (K-7)</td>
+</tr><tr bgcolor="">
+<th>MIDDLE</th>
+<td>Fraser River Middle School (6-8)</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>SECONDARY</th>
+<td>New Westminster Secondary (9-12)</td>
+</tr></table></center>]]></description>
+		<styleUrl>#kml_style_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY</styleUrl>
+		<Style>
+			<LineStyle>
+				<width>4</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#kml_schema_ft_3_BOUNDARY_SCHOOL_CATCHMENT_PRIMARY">
+				<SimpleData name="PRIMARY">Lord Kelvin (K-7)</SimpleData>
+				<SimpleData name="MIDDLE">Fraser River Middle School (6-8)</SimpleData>
+				<SimpleData name="SECONDARY">New Westminster Secondary (9-12)</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-122.938082910967,49.21364363572879,0 -122.927724493666,49.2190449849256,0 -122.920337623103,49.2131238038815,0 -122.921827968054,49.2123338370413,0 -122.914191911886,49.2062378309012,0 -122.922810519361,49.2016298277581,0 -122.921864965122,49.20091980623621,0 -122.922356583467,49.2006660123481,0 -122.923726514092,49.2008702252748,0 -122.924752902605,49.2011943264143,0 -122.925414549235,49.2015505683439,0 -122.92648305259,49.2023128063879,0 -122.931173855592,49.1998194355774,0 -122.932987577585,49.200725725615,0 -122.932912555493,49.2011135999965,0 -122.932623466799,49.20126932031201,0 -122.932788154167,49.20140062173839,0 -122.926886129111,49.2047092587294,0 -122.938082910967,49.21364363572879,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+        <description>Lord Kelvin Elementary</description>
+        <Point>
+            <coordinates>
+                -122.9302,49.2110,0
+            </coordinates>
+        </Point>
+    </Placemark>
+</Document>
+</kml>
